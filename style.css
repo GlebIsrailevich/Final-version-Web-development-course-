@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  background-color: #edeef0;
+}
+
+.table-wrapper,
+.table-wrapper-sec {
+  width: 80%;
+  margin: 16px auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 16px;
+}
+
+.table,
+.table__sec {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 25px 0;
+}
+
+.table th,
+.table td,
+.table__sec th,
+.table__sec td {
+  padding: 12px 15px;
+}
+
+.table th {
+  text-align: left;
+}
+
+.table tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.table tr td:nth-child(8),
+.table tr td:nth-child(7) {
+  display: none;
+}
+
+.table__sec tr td:nth-child(2),
+.table__sec tr td:nth-child(3),
+.table__sec tr td:nth-child(4) {
+  display: none;
+}
+
+.data-row:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.blue-text {
+  color: dodgerblue;
+}
+
+.form-wrapper {
+  width: fit-content;
+  margin: 16px auto;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 24px;
+  margin-left: 2rem;
+  height: auto;
+}
+
+.form-input {
+  height: 36px;
+  width: 200px;
+  padding: 0 16px;
+  margin-top: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #dddddd;
+  border-radius: 8px;
+}
+
+.form-input:focus {
+  outline: none;
+  border: 1px solid dodgerblue;
+}
+
+.submit-btn-wrapper {
+  width: 100%;
+  display: flex;
+}
+
+.submit-btn {
+  height: 36px;
+  padding: 0 16px;
+  margin: 0 auto;
+  background-color: #4bb34b;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.submit-btn-red {
+  background-color: red;
+}
+
+.table-btn {
+  cursor: pointer;
+  margin: 4px 0;
+}
+
+.table-btn:hover {
+  opacity: 50%;
+}
+
+.edit-btn {
+  color: dodgerblue;
+}
+
+.remove-btn {
+  color: red;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+li {
+  margin-right: 20px;
+}
+
+.select-center {
+  display: flex;
+  justify-content: center;
+  color: rgb(23, 115, 207);
+  
+}
+
+.container {
+  display: flex;
+  padding: 0 2rem;
+}
+
+.mr {
+  margin-right: 1rem;
+}
+
+.d-none {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  color: dodgerblue;
+}
+
+a:visited {
+  color: rgb(17, 111, 206);
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: rgb(23, 115, 207);
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #c9d3dd;
+}
+
+a:active {
+  background: #717099;
+  color: rgb(166, 194, 223);
+}
+
+
+
+.header {
+  margin: auto; 
+  height: 40px;
+  width: 200px;
+  /* padding: 10px; */
+  padding-bottom: 8px;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  /* background-image: url(https://ucare.timepad.ru/6fa1e1d9-3b03-40e2-82c9-1986e2f877ae/) ; */
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 25px;
+  background-color: rgb(244, 245, 247);
+  border-color:rgb(135, 161, 209) ;
+  justify-content: center;
+  text-align: center;
+
+}
+
+.choose {
+  color: rgb(23, 115, 207);
+}

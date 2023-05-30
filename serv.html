@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <title>Данные о клиентах Биржи</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="header">
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html">Клиенты</a>
+            </li>
+            <li>
+                <a href="serv.html">Депозитарий</a>
+            </li>
+        </ul>
+    </nav>
+    </div>
+
+    <div class="container">
+        <div class="table-wrapper-sec">
+            <table class="table__sec">
+                <tr class="header-row">
+                    <th>id клиента</th>
+                    <th>Обьем средств</th>
+                    <th>Почта</th>
+                    <th>Резидентство</th>
+                    <th>Валюта клиента</th>
+                    <th>Объем валютных активов</th>
+                    <th>Действие</th>
+                </tr>
+            </table>
+        </div>
+        <form id="addUserForm" class="form-wrapper">
+            <!-- <label for="fname">Имя:</label><br>
+            <input type="text" id="fname" name="fname" placeholder="Введите имя" class="form-input"><br>
+            <label for="sname">Фамилия:</label><br>
+            <input type="text" id="sname" name="sname" placeholder="Введите фамилию" class="form-input"><br>
+            <label for="mname">Отчество:</label><br>
+            <input type="text" id="mname" name="mname" placeholder="Введите отчество" class="form-input"><br>
+            <label for="stud">Номер студенческого билета:</label><br>
+            <input type="number" id="stud" name="stud" placeholder="Введите номер" class="form-input"><br>
+            <label for="age">Id резидента:</label><br> -->
+            <!-- <input type="number" id="age" name="age" placeholder="Введите возраст" class="form-input"><br><br> -->
+            
+            <label for="MyID">id</label><br>
+            <input type="number" id="MyID" name="MyID" placeholder="Введите ваш ID" class="form-input"><br>
+            <!-- <label for="fname">ФИО:</label><br> -->
+            <!-- <input type="text" id="fname" name="fname" placeholder="Введите ФИО" class="form-input"><br> -->
+            <!-- <label for="DateB">Дата Рождения:</label><br> -->
+            <!-- <input type="text" id="DateB" name="DateB" placeholder="Введите дату Рождения" class="form-input"><br> -->
+            <!-- <label for="Broker">Брокер:</label><br> -->
+            <!-- <input type="text" id="Broker" name="Broker" placeholder="Введите Брокера" class="form-input"><br> -->
+            <!-- <label for="mail">Почта</label><br> -->
+            <label for="deposit">Депозит</label><br>
+            <input type="number" id="deposit" name="deposit" placeholder="Введите сумму вашего депозита" class="form-input"><br>
+            <label for="mail">Электронная почта</label><br>
+            <input type="text" id="mail" name="mail" placeholder="Введите вашу электронную почту" class="form-input"><br><br>
+            <label for="age">Id резидента:</label><br>
+            <select required name="age" id="age"> 
+                <option value="1">1</option>
+                <option value="2">2</option>
+            </select><br>
+            <!-- <label for="mname">Вид услуги:</label><br>
+            <input type="text" id="serv" name="serv" placeholder="Введите услугу" class="form-input"><br>
+            <label for="mname">Сумма услуги:</label><br>
+            <input type="text" id="sumserv" name="sumserv" placeholder="Введите сумму услугу" class="form-input"><br>
+            <!-- <div class="submit-btn-wrapper"> -->
+            <label for="mname">Валюта клиента:</label><br> 
+            <input type="text" id="currency" name="currency" placeholder="Введите валюту" class="form-input"><br>
+            <label for="mname">Объем валютных активов:</label><br>
+            <input type="number" id="sumserv" name="sumserv" placeholder="Введите обьем валюты на счете клиента" class="form-input"><br>
+            <div class="submit-btn-wrapper">
+                <input id="submitBtn" type="submit" class="submit-btn" value="Добавить">
+            </div>
+        </form>
+    </div>
+  
+
+  
+
+</body>
+
+</html>
